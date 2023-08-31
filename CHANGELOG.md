@@ -26,6 +26,11 @@ Main (unreleased)
 
 - Clustering: Allow advertise interfaces to be configurable. (@wildum)
 
+- Some `otelcol` components will now display their debug metrics via the 
+  Agent's `/metrics` endpoint. Those components include `otelcol.receiver.otlp`, 
+  `otelcol.exporter.otlp` and `otelcol.processor.batch`. There may also be metrics 
+  from other components which are not documented yet. (@ptodev)
+
 ### Other changes
 
 - Use Go 1.21.0 for builds. (@rfratto)
