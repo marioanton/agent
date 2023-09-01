@@ -22,6 +22,8 @@ Main (unreleased)
 
 - Clustering: Add a new flag `--cluster.name` to prevent nodes without this identifier from joining the cluster. (@wildum)
 
+- The `cri` stage in `loki.process` can now be configured to limit line size.
+
 ### Enhancements
 
 - Clustering: Allow advertise interfaces to be configurable. (@wildum)
